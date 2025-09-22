@@ -1,0 +1,519 @@
+header {
+  width: 100vw;
+  height: 90px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.upperbox {
+  background-color: black;
+  height: 100%; 
+  display: flex;
+  justify-content: space-between;
+}
+.icons{
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+#img1{
+    height: 80px;
+    width:250px;
+    
+}
+#i1{
+    width:30px;
+    margin-top: 30px;
+}
+#i1:hover{
+    color: rgb(163, 163, 97);
+}
+#i2:hover{
+    color: rgb(163, 163, 97);
+}
+#globe:hover{
+    
+    color: rgb(163, 163, 97);
+}
+#i2{
+    width:30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+#text:hover{
+    color: rgb(163, 163, 97);
+}
+#globe{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#text{
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    
+}
+.lowerbox{
+    background-color: rgb(31,32,34);
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    justify-content: space-around;  
+}
+select{
+    background-color: transparent;
+    color: white;
+
+}
+#event{
+    background-color:rgb(31,32,34) ;
+    color: white;
+    font-weight: 900;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+#w3{
+    background-color: rgb(31,32,34);
+    color: white;
+    font-weight: 900;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#support{
+    background-color: rgb(31,32,34);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img1{
+    margin-top: 50px;
+}
+#img2{
+    width: 1025px;
+    position: relative;
+}
+.main1{
+    position: absolute;
+    top:10;
+    right:0.5px;
+    left:3px;
+    bottom: 20px;
+    color: white;
+    font-family: "Playball", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+.p{
+    border: 2px solid white;
+    padding: 6px;
+    margin: 15px;
+    
+}
+.p:hover{
+    background-color: rgb(163, 163, 97);
+    color: black;
+}
+.main2 {
+  position: absolute; 
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  display: flex;
+  font-family: "Playball", cursive;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+.context{
+    background-image: url("wallhaven-oxgkq9_1920x919.png");
+    width:100vw;
+    height: 500px;
+    position: relative;
+    margin-top: -50px;
+    
+}
+#m1{
+    height: 400px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 30px;
+    position: relative;
+}
+.okok{
+    height: 300px;
+    margin-top: -20px;
+}
+#video{
+   position: absolute;
+    left: 61%;              /* Center horizontally */
+    top: 70%;               /* Center vertically */
+    transform: translate(-50%, -50%); /* Perfectly center it */
+    width: 600px;
+    height: 400px;         /* You can increase/decrease freely */
+    object-fit: cover;      /* Keeps proper aspect ratio */
+    z-index: 0;
+}
+.para1{
+    position: absolute;
+    font-weight: bolder;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:180px;
+    color:white;
+    font-size: 20px;
+    left:45px;
+    
+}
+.para2{
+    position: absolute;
+    display: flex;
+    font-weight: bolder;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:400px;
+    left:50px;
+    color: white;
+    
+}
+#h4{
+     margin-left: 20px;
+    border: 1px solid rgb(163, 163, 97);
+    padding: 10px;
+}
+#h3{
+    margin-left: 20px;
+    border: 1px solid rgb(163, 163, 97);
+    padding: 10px;
+}
+#h3:hover{
+    color:rgb(163, 163, 97) ;
+    font-size: 20px;
+}
+#h4:hover{
+    color:rgb(163, 163, 97) ;
+    font-size: 20px;
+}
+#arrow{
+    position: absolute;
+    left:180px;
+    top:55px;
+}
+#arrow:hover{
+    color:rgb(163, 163, 97) ;
+}
+#u{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+#arrow1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+#arrow1:hover{
+    color: rgb(163, 163, 97);
+}
+.con{
+    background-image: url("wallhaven-yjqozg_1920x919.png");
+    height: 1000px;
+    width: 100vw;
+    margin-top: -70px;
+    position: relative;
+    gap:0;
+    
+}
+.con1{
+    display: flex;
+}
+.box1{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    border: 3px solid rgb(163, 163, 97);
+    transition: transform 0.3s ease;
+}
+.box2{
+    background-color: white;
+    height: 350px;
+    width: 274px;
+    margin-left: 50px;
+    border: 3px solid rgb(163, 163, 97);
+    transition: transform 0.3s ease;
+}
+.box3{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    border: 3px solid rgb(163, 163, 97);
+    transition: transform 0.3s ease;
+    margin-right: 40px;
+}
+#boximage1{
+    height: 190px;
+    width: 275px;
+}
+.boxtext1{
+    display: flex;
+    margin-top: 30px;
+}
+#b1{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 50px;
+    font-size: 15px;
+}
+#b2{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 20px;
+    font-size: 15px;
+}
+.boxtext2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 23px;
+}
+#boximage2{
+    height: 190px;
+    width: 275px;
+}
+.boxtext3{
+    display: flex;
+    margin-top: 30px;
+}
+#b3{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 50px;
+    font-size: 15px;
+}
+#b4{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 20px;
+    font-size: 15px;
+}
+.boxtext4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 23px;
+}
+#boximage3{
+    height: 190px;
+    width: 275px;
+}
+.boxtext5{
+    display: flex;
+    margin-top: 30px;
+}
+#b5{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 50px;
+    font-size: 15px;
+}
+#b6{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 20px;
+    font-size: 15px;
+}
+.boxtext6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 23px;
+}
+.l{
+    display: flex;
+    color: rgb(128, 128, 29);
+    
+}
+.d{
+    display: flex;
+    color: rgb(128, 128, 29);
+    margin-top: 55px
+}
+.s{
+    display: flex;
+    color: rgb(128, 128, 29);
+    margin-top: 33px;
+}
+.date{
+    margin-left:68px;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.box2:hover{
+    transform: scale(1.2);
+}
+.box3:hover{
+    transform: scale(1.2);
+}
+#v1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.box4{
+    background-color: white;
+    height: 350px;
+    width: 274px;
+    margin-top: -20px;
+    margin-left: 180px;
+    border: 3px solid rgb(163, 163, 97);
+    transition: transform 0.3s ease;
+}
+.con2{
+    display: flex;
+}
+.box5{
+    background-color: white;
+    height: 350px;
+    width: 274px;
+    margin-top: -20px;
+    margin-left: 100px;
+    border: 3px solid rgb(163, 163, 97);
+    transition: transform 0.3s ease;
+}
+#boximage4{
+    height: 190px;
+    width: 275px;
+}
+#boximage5{
+    height: 190px;
+    width: 275px;
+}
+#b7{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 50px;
+    font-size: 15px;
+}
+#b8{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 20px;
+    font-size: 15px;
+}
+#b9{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 50px;
+    font-size: 15px;
+}
+#b10{
+    border: 3px solid rgb(163, 163, 97);
+    margin-left: 20px;
+    font-size: 15px;
+}
+.boxtext7{
+    display: flex;
+    margin-top: 30px;
+}
+.boxtext9{
+    display: flex;
+    margin-top: 30px;
+}
+.boxtext8{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    margin-top: 23px;
+}
+.boxtext10{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    margin-top: 23px;
+}
+.box4:hover{
+    transform: scale(1.2);
+}
+.box5:hover{
+    transform: scale(1.2);
+}
+.con4{
+    background-color: black;
+    height: 500px;
+    width: 100vw;
+    padding-top: 130px;
+}
+.icon7{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 120px;
+    padding-left: 200px; */
+    gap:20px;
+
+}
+#x2,#x2,#x3,#x4,#x5,#x6,#x7,#x8{
+    padding-left: 28px;
+    transition: transform 0.3s ease;
+}
+#x1{
+    color: green;
+}
+#x2{
+    color: blue;
+}
+#x3{
+    color: rgb(39, 39, 139);
+}
+#x4{
+    color: red;
+}
+#x5{
+    color: lightblue;
+}
+#x6{
+    color: grey;
+}
+#x7{
+    color: lightcoral;
+}
+#x1:hover,#x2:hover,#x3:hover,#x4:hover,#x5:hover,#x6:hover,#x7:hover,#x8:hover{
+    transform: scale(1.2);
+    color:rgb(163, 163, 97);
+    display: inline-block;
+}
+.battle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -170px;
+}
+#g4{
+    height: 100px;
+    width:200px;
+    /* padding-top: 30px; */
+    /* padding-left: 70px; */
+    transition: transform 0.3s ease;
+}
+#g4:hover{
+    transform: scale(1.2);
+}
+#g7{
+    height: 200px;
+    width:350px;
+    transition: transform 0.3s ease;
+    
+}
+#g7:hover{
+    transform: scale(1.2);
+}
